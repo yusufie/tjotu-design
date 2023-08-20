@@ -1,0 +1,114 @@
+.hero {
+    background-image: url("/image/hero-background.png");
+    background-repeat: no-repeat;
+    background-size: 100% 53.125rem ;
+    background-position: top center;
+}
+
+.heroHeader {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    padding-top: 8rem;
+}
+
+.heroHeader h1 {
+    font-size: 5rem;
+    background: linear-gradient(
+      90deg,
+      #ffcf23 0%,
+      #ff6eb4 50.53%,
+      #45b9b0 97.92%
+    );
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.heroHeader p {
+    font-size: 1.75rem;
+}
+
+.heroHeader button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    height: 2.625rem;
+    width: auto;
+    margin-top: 2rem;
+    padding: 0.8125rem 1.5rem;
+  
+    background: linear-gradient(#222D2F, #222D2F) padding-box,
+      linear-gradient(135deg, #ffcf23 0%, #ff6eb4 50.53%, #45b9b0 97.92%)
+        border-box;
+    border: 1px solid transparent;
+    border-radius: 6.25rem;
+  
+    box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 0.5);
+}
+
+.heroHeader button span {
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1rem;
+
+  background: linear-gradient(
+    135deg,
+    #ffcf23 0%,
+    #ff6eb4 50.53%,
+    #45b9b0 97.92%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.heroImage {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 64rem;
+}
+
+.heroImage img {
+  mix-blend-mode: lighten;
+}
+
+.heroImage button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  height: 2.625rem;
+  width: auto;
+  margin-bottom: 1.5rem;
+  padding: 0.8125rem 1.5rem;
+
+  background: linear-gradient(#141414, #141414) padding-box,
+    linear-gradient(135deg, #ffcf23 0%, #ff6eb4 50.53%, #45b9b0 97.92%)
+      border-box;
+  border: 1px solid transparent;
+  border-radius: 6.25rem;
+
+  box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 0.5);
+}
+
+.heroImage button span {
+font-size: 1rem;
+font-weight: 500;
+line-height: 1rem;
+
+background: linear-gradient(
+  135deg,
+  #ffcf23 0%,
+  #ff6eb4 50.53%,
+  #45b9b0 97.92%
+);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}

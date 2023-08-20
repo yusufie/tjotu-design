@@ -1,0 +1,139 @@
+.business {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
+}
+
+.business h1 {
+ margin: 2.25rem auto;
+ text-align: center;
+ 
+ font-size: 4rem;
+ font-weight: 700;
+ line-height: 5.5rem;
+
+ background: linear-gradient(
+    90deg,
+    #ffcf23 0%,
+    #ff6eb4 50.53%,
+    #45b9b0 97.92%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 6rem;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  height: 32.375rem;
+  width: 21.4375rem;
+  padding: 1.5rem 1.25rem 1.5rem 1.25rem;
+
+  background: linear-gradient(#1c1d21, #1c1d21) padding-box,
+  linear-gradient(90deg, #FFCF23 0%, #FF6EB4 50.53%, #45B9B0 97.92%) border-box;
+
+  border: 1px solid transparent;
+  border-radius: 1.5rem;
+
+  box-shadow: 0px 0px 16px 0px rgba(23, 23, 23, 0.05);
+  backdrop-filter: blur(16px);
+}
+
+.cardImage {
+  mix-blend-mode: lighten;
+  border-bottom: 1px solid #fff;
+}
+
+.cardHeader{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+
+  margin-bottom: 1.25rem;
+  margin-top: 1.25rem;
+}
+
+.cardHeader h2 {
+  text-align: center;
+  
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 100%;
+ 
+  background: linear-gradient(
+     90deg,
+     #ffcf23 0%,
+     #ff6eb4 50.53%,
+     #45b9b0 97.92%
+   );
+   background-clip: text;
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+ }
+
+ .card p {
+  color: #D9D9D9;
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 100%;
+}
+
+.price {
+  color: #FFF;
+  font-size: 1.5rem;
+  font-weight: 500;
+  line-height: 1.5rem ;
+  margin-top: 2.25rem;
+  margin-left: auto;
+}
+
+.card button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  height: 1.875rem;
+  width: 18.875rem;
+  padding: 0.5625rem 1rem;
+  margin-top: 0.25rem;
+
+  background: linear-gradient(#1c1d21, #1c1d21) padding-box,
+    linear-gradient(135deg, #ffcf23 0%, #ff6eb4 50.53%, #45b9b0 97.92%)
+      border-box;
+  border: 1px solid transparent;
+  border-radius: 6.25rem;
+
+  box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 0.5);
+}
+
+.card button span {
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1rem;
+
+  background: linear-gradient(
+    135deg,
+    #ffcf23 0%,
+    #ff6eb4 50.53%,
+    #45b9b0 97.92%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
