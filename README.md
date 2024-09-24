@@ -1,5 +1,5 @@
 # Tjotu-Design Live Demo
-https://tjotu-design.vercel.app/
+https://tjotu-design.netlify.app/
 
 
 # Figma Design
